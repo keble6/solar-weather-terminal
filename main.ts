@@ -15,6 +15,6 @@ serial.onDataReceived(serial.delimiters(Delimiters.NewLine), function () {
 })
 let serialString = ""
 let lastChar = ""
-radio.setGroup(1)
+radio.setGroup(2)
 radio.setTransmitPower(7)
 let outString = ""
